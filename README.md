@@ -1,6 +1,8 @@
 # typecho-theme-bing
 一款背景图片为 bing 图片的typecho主题
 
+**演示地址：** <http://scunet.cn>
+
 1. 背景图片每日自动更新。
 
 1. 抓取 bing 图片写得很简陋，直接用的 `file_get_contents()` 方法，待更新。
