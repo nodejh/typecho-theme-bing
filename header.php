@@ -21,7 +21,7 @@
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 
-     <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">    
+    <link href="<?php $this->options->themeUrl('img/favicon.ico'); ?>  img/favicon.ico" type="image/x-icon" rel="shortcut icon">    
     <!-- amazeui -->
     <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.2.1/css/amazeui.min.css">
     <!-- highlight.js代码高量- sublime text 主题 -->
